@@ -3,34 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/register.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="icon" type="image/icon-x" href="image/register-fav.svg" />
 
     <title>Registro</title>
   </head>
   <body>
-    <form class="body__form-register" action="">
-      <h2 class="body__title">Registro de usuario</h2>
-      <section class="body__elements">
-        <label class="body__label" for="nombre">Nombre</label>
-        <input class="body__input" type="text" name="nombre" />
-      </section>
-      <section class="body__elements">
-        <label class="body__label" for="correo">Correo</label>
-        <input class="body__input" type="email" name="correo" />
-      </section>
-      <section class="body__elements">
-        <label for="contraseña">Contraseña</label>
-        <input class="body__input" type="password" name="contraseña" />
-      </section>
-      <section class="body__elements">
-        <label for="confirmar_contraseña">Confirmar Contraseña</label>
-        <input
-          class="body__input"
-          type="password"
-          name="confirmar_contraseña"
-        />
-      </section>
-      <button type="submit">Enviar</button>
-    </form>
+    <section class="register">
+      <form action="" class="register__form">
+        <h1 class="register__title">Registrate</h1>
+        <section class="register__group">
+          <label class="register__label" for="usuario">Usuario</label>
+          <input type="text" class="register__input" name="usuario" />
+        </section>
+        <section class="register__group">
+          <label class="register__label" for="corre">Correo</label>
+          <input type="email" class="register__input" name="correo" />
+        </section>
+        <section class="register__group">
+          <label class="register__label" for="contraseña">Contraseña</label>
+          <input type="password" class="register__input" name="contraseña" />
+        </section>
+        <a href="login.html" class="register__link">
+          <button class="register__button" type="button">Ingresar</button>
+        </a>
+        
+        <p class="register__text">
+          ¿Ya tienes una cuenta?
+          <a href="login.html" class="register__link">Inicia sesion aqui</a>
+        </p>
+      </form>
+      <img
+        class="register__image"
+        src="image/register-image.svg"
+        alt="imagen_registro"
+      />
+    </section>
   </body>
 </html>

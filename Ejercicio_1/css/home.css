@@ -1,0 +1,45 @@
+body {
+  background-color: #f9f9f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.principal {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f9f9f8;
+  width: fit-content;
+  border-radius: 2rem;
+  padding: 3.2rem;
+  box-shadow: 1px 1px 24px #d3e0e4e8;
+
+  animation-name: appear;
+  animation-duration: .5s;
+}
+
+.principal__greating {
+  margin-top: 0;
+  color: #81d6e4;
+}
+
+.principal__confirmation {
+  margin-top: 0;
+}
+
+.principal__button {
+  font-weight: 500;
+  height: 4rem;
+  width: 100%;
+  border-radius: 3.2rem;
+  border: rgba(189, 186, 186, 0.815) solid 1px;
+  text-align: center;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.principal__button:hover {
+  background-color: #f0a0a8;
+  color: white;
+}

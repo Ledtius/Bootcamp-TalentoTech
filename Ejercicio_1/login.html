@@ -1,19 +1,40 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/styles.css" />
-    <title>Inicio secion</title>
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/login.css" />
+    <link rel="icon" type="image/icon-x" href="image/login-fav.svg" />
+    <title>Login</title>
   </head>
   <body>
-    <form class="body__form-login" action="">
-      <h2 class="body__title">Iniciar Sesión</h2>
-      <label class="body__label" for="correo">Correo:</label>
-      <input class="body__input" type="email" name="correo" />
-      <label class="body__label" for="cotraseña">Contraseña:</label>
-      <input class="body__input" type="password" name="Contraseña" />
-      <button class="body__submit" type="submit">Ingresar</button>
-    </form>
+    <section class="login">
+      <form class="login__form" action="">
+        <h1 class="login__title">Iniciar Sesion</h1>
+        <section class="login__group">
+          <label class="login__label" for="iniciar_sesion"
+            >Correo electronico</label
+          >
+          <input class="login__input" type="email" name="iniciar_sesion" />
+        </section>
+        <section class="login__group">
+          <label class="login__label" for="contraseña">Contraseña</label>
+          <input class="login__input" type="password" name="contraseña" />
+        </section>
+        <a href="home.html" class="login__link">
+          <button class="login__button" type="button">Ingresar</button>
+        </a>
+        <p class="login__text">
+          ¿No tienes una cuenta?
+          <a href="register.html" class="login__link">Registrarse aqui</a>
+        </p>
+      </form>
+      <img
+        class="login__image"
+        src="image/login-image.svg"
+        alt="imagen_login"
+      />
+    </section>
   </body>
 </html>
