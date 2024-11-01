@@ -15,8 +15,8 @@ body {
   box-shadow: 2px 2px 20px rgba(177, 175, 175, 0.322);
   padding: 4rem;
   border-radius: 2rem;
-  animation-name: appear;
-  animation-duration: .5s;
+  /* animation-name: appear;
+  animation-duration: .1s; */
 
 }
 

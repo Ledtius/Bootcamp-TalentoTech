@@ -13,12 +13,14 @@ html {
 }
 
 body {
-  height: 100vh;
+
+  height: 400vh;
   font-size: 1.6rem;
   margin: 0;
+  position: relative;
 }
 
-/* @keyframes appear {
+@keyframes appear {
   0% {
     opacity: 0;
   }
@@ -28,4 +30,4 @@ body {
   100% {
     opacity: 1;
   }
-} */
+}
